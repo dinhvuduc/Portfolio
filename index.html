@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>John Doe || Home</title>
+    <title>Duc Dinh || Home</title>
     <!-- font-awesome -->
     <link
       rel="stylesheet"
@@ -14,37 +14,224 @@
   </head>
   <body>
     <!-- navbar -->
-
+    <nav class="nav" id="nav">
+      <div class="nav-center"> 
+        <!-- nav header -->
+        <div class="nav-header">
+          <img src="./images/logoDucDinh.svg" class="nav-logo" alt="nav logo">
+          <button class="nav-btn" id="nav-btn">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- nav-links -->
+        <ul class="nav-links">
+          <li>
+            <a href="index.html">home</a>
+          </li>
+          <li>
+            <a href="about.html">about</a>
+          </li>
+          <li>
+            <a href="/projects.html">project</a>
+          </li>
+          <li>
+            <a href="contact.html">contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
     <!-- end of navbar -->
     <!-- sidebar -->
-
+<aside class="sidebar" id="sidebar">
+  <div>
+    <button class="close-btn" id="close-btn">
+      <i class="fas fa-times"></i>
+    </button>
+    <!-- nav-links -->
+    <ul class="sidebar-links">
+      <li>
+        <a href="index.html">home</a>
+      </li>
+      <li>
+        <a href="about.html">about</a>
+      </li>
+      <li>
+        <a href="project.html">project</a>
+      </li>
+      <li>
+        <a href="contact.html">contact</a>
+      </li>
+    </ul>
+    <!-- social icons -->
+  <ul class="social-icons" >
+    <li>
+      <a href="https://www.linkedin.com/in/duc-dinh-1b6628200/" class="socials-icon">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/DucDinh513/" class="social-icon">
+        <i class="fab fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com/ducdihn?fbclid=IwAR0f57gn6ukM75moQbNo8N7tjO88-FfNVGmjW_8-RAvRtLDrTriDRVJ7DgA" class="social-icon">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/dinhvuduc" class="social-icon">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    
+  </ul>
+  </div>
+</aside>
     <!-- end of sidebar -->
+    
     <!-- header -->
-
+    <header class="hero">
+      <div class="section-center hero-center">
+        
+        <article class="hero-info">
+          <div class="underline"></div>
+            <h1>i'm Duc</h1>
+            <h4>Freelance web developer</h4>
+            <a href="contact.html" class="btn hero-btn">
+              hire me</a>
+          </article>
+  <article class="hero-img"> 
+    <img src="./images/hero.png"
+    class="hero-photo" alt="duc dinh">
+  </article>
+  </div>
+    </header>
     <!-- end of header -->
     <!-- about -->
+<section class="section about">
+  <div class="section-center about-center">
+  <!-- about img -->
+  <article class="about.img">
+    <img src="./images/about-img.jpg" class="hero-photo" alt="about img">
+  </article>
+  <article class="about-info">
+    <!-- section title -->
+    <div class="section-title about-title">
+      <h2>about</h2>
+      <div class="underline"></div>
+    </div>
+    <p>
+      Hello, I'm Dinh Vu Duc, a fourth-year Computer Science student at HCM International University, passionate about coding and sports. Currently focusing on a web application development thesis, I perceive coding not only as a technical skill but also as a form of creativity. Despite being new to programming, I embrace challenges as opportunities for continuous learning and personal growth. Join me in this exciting blend of technology and creativity, where coding meets the dynamic spirit of sports.
+    </p>
+    
 
+    <a href="about.html" class="btn">about me</a>
+    
+  </article>
+  </div>
+</section>
     <!-- end of about -->
-    <!-- services -->
 
-    <!-- end of services -->
-    <!-- projects -->
-
-    <!-- end of projects -->
-    <!-- connect -->
-
-    <!-- end of connect -->
     <!-- skills -->
+<section class="section bg-grey">
+  <!-- section title -->
+  <div class="section-title">
+    <h2>skills</h2>
+    <div class="underline"></div>
+  </div>
+  <div class=" skills-center section-center ">
+    <!-- single skill -->
+    <article class="skill" >
+      <i class="fas fa-code skill-icon"></i>
+      <h4>Web Development Basics:</h4>
+      <div class="underline"></div>
+      <p>
+        "I possess foundational skills in HTML and CSS, enabling me to structure web content and style interfaces effectively. Building on this, I've embraced Basic JavaScript, mastering key concepts like variables and functions to add interactivity. Additionally, I've explored Responsive Design, ensuring adaptability across various devices. This combined skill set equips me to create dynamic, user-friendly websites."
+      </p>
 
+    </article>
+    <!-- end of single skill -->
+    <!-- single skill -->
+    <article class="skill" >
+      <i class="fas fa-solid fa-globe skill-icon"></i>
+      <h4>English communication:</h4>
+      <div class="underline"></div>
+      <p>
+        "I can ensure effective communication in English as a new coder. With the ability to provide clear code documentation, collaborate seamlessly with team members, and write technical documents, I can articulate coding challenges and contribute effectively. Engaging in online communities, presenting projects, and mastering email etiquette are all areas where I can confidently communicate in the dynamic field of coding."
+      </p>
+    </article>
+    <!-- end of single skill -->
+    <!-- single skill -->
+    <article class="skill" >
+      <i class="fas fa-regular fa-lightbulb skill-icon"></i>
+      <h4>Problem Solving:</h4>
+      <div class="underline"></div>
+      <p>
+        With a problem-solving mindset, I methodically approach IT challenges. I define the issue, gather relevant information, and systematically isolate the root cause. Testing and implementing solutions follow, with a strong emphasis on documentation for future reference. Despite my novice status, I prioritize preventive measures, continually learn from experiences, and maintain effective communication with stakeholders throughout the process.
+        </p>
+    </article>
+    <!-- end of single skill -->
+  </div>
+</section>
     <!-- end of skills -->
-    <!-- timeline -->
+    <!-- projects -->
+<section class="section-projects">
+<!-- section title -->
+<div class="section-title">
+  <h2>Latest Works</h2>
+  <div class="underline"></div>
+  <p class="project-text">
+    Welcome to the realm of innovative software projects! Here, I proudly present the unique and challenging creations I've contributed to as a new coder. As a newcomer to the coding scene, I am thrilled to introduce a collection of projects that embody creativity, technical prowess, and an unyielding passion for learning.
+  </p>
+</div>
+<div class="section-center project-center">
+  <!-- single project -->
+  <article class="project">
+    <a href="https://dinhvuduc.github.io/DSA-project---MineSweeper/" class="project-1">
+      <article class="project">
+        <img src="./images/project-1.jpeg" alt="single project" class="project-img">
+        <h4> Game MineSweeper</h4>
+        <a href="https://dinhvuduc.github.io/DSA-project---MineSweeper/" class="project-1"></a>
 
-    <!--end of  timeline -->
-    <!-- blog -->
+      </article>
+    </a>
+  </article>
+  <!-- end of single project -->
+  
+</div>
+<!-- end of section title -->
+</section>
 
-    <!--end of  blog -->
+
     <!-- footer -->
-
+<footer class="footer">
+  <!-- social icons -->
+  <ul class="social-icons" >
+    <li>
+      <a href="https://www.linkedin.com/in/duc-dinh-1b6628200/" class="social-icon">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.facebook.com/DucDinh513/" class="social-icon">
+        <i class="fab fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.instagram.com/ducdihn?fbclid=IwAR0f57gn6ukM75moQbNo8N7tjO88-FfNVGmjW_8-RAvRtLDrTriDRVJ7DgA" class="social-icon">
+        <i class="fab fa-instagram"></i>
+      </a>
+    </li>
+    <li>
+      <a href="https://github.com/dinhvuduc" class="social-icon">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+    
+  </ul>
+  <p> &copy; <span id="date"></span> Duc Dinh. all rights reserved</p>
+</footer>
     <script src="./js/app.js"></script>
   </body>
 </html>
